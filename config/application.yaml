@@ -1,0 +1,9 @@
+server:
+  port: 8080
+
+spring:
+  mvc.locale: pl_PL
+
+app:
+  storage:
+    selfie: https://kbwarestorage.blob.core.windows.net/selfie-storage/
