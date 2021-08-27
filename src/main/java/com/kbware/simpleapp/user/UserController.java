@@ -18,7 +18,6 @@ import java.util.Map;
 import java.util.Optional;
 
 @RestController
-@RequestMapping("api/user")
 public class UserController {
 
     private final Map<Long, User> users = new HashMap<>() {{
