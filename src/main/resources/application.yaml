@@ -2,8 +2,11 @@ server:
   port: 8080
 
 spring:
-  mvc.locale: pl_PL
+  web:
+    locale: pl_PL
 
-app:
+azure:
   storage:
-    selfie: https://kbwarestorage.blob.core.windows.net/selfie-storage/
+    account-name: kbwarestorage
+    account-key: 3Jl1p6dtl3oCiQq10uGlN2J9Qjzox3GurezvGs+mL4oN5GmIMGEGAePFzlohvyTu5FSeKwY5EU1kEs7GD0Raeg==
+    blob-endpoint: https://kbwarestorage.blob.core.windows.net/
