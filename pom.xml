@@ -85,7 +85,7 @@
           <appName>KbwareApp</appName>
           <pricingTier>B1</pricingTier>
           <region>westeurope</region>
-          <appServicePlanName>ASP-learning-8a1a</appServicePlanName>
+          <appServicePlanName>learning-app-plan</appServicePlanName>
           <appServicePlanResourceGroup>learning</appServicePlanResourceGroup>
           <runtime>
             <os>Linux</os>
