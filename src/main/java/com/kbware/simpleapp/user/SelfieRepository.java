@@ -30,7 +30,7 @@ public class SelfieRepository {
 
             client.getBlobClient(name).upload(file.getInputStream(), file.getSize());
 
-            return new Selfie(client.getBlobContainerUrl() + name, false);
+            return new Selfie(client.getBlobContainerUrl() + "/" + name, false);
         } catch (IOException e) {
             log.error("Error storing file to blob storage", e);
         }
