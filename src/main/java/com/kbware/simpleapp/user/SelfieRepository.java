@@ -2,7 +2,6 @@ package com.kbware.simpleapp.user;
 
 import com.azure.storage.blob.BlobServiceClientBuilder;
 import com.kbware.simpleapp.user.model.Selfie;
-import com.kbware.simpleapp.user.model.User;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;

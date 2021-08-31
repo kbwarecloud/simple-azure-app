@@ -10,3 +10,7 @@ azure:
     account-name: kbwarestorage
     account-key: 3Jl1p6dtl3oCiQq10uGlN2J9Qjzox3GurezvGs+mL4oN5GmIMGEGAePFzlohvyTu5FSeKwY5EU1kEs7GD0Raeg==
     blob-endpoint: https://kbwarestorage.blob.core.windows.net/
+  cosmos:
+    database: kbwaredatabase
+    key: m7pM2xiXY2YhUfdGjGShB1yXoXuFih9CnKjPcA4i0cFGajON574ccVne6ottq3JMhGJFHGfnByq8XaLm0mayFg==
+    uri: https://kbwaredatabase.documents.azure.com:443/
